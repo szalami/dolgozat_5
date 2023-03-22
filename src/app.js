@@ -1,3 +1,12 @@
+/*
+File: app.js
+Author: Faragó Csaba
+Copyright: 2023, Faragó Csaba
+Group: Szoft I-1-E
+Date: 2023-03-22
+Github: https://github.com/szalami/dolgozat_5.git
+Licenc: GNU GPL
+*/
 const doc = {
     tbody: null
 };
@@ -31,7 +40,7 @@ function render() {
         rows += `
             <tr>
                 <td>${ship.name}</td>
-                <td>${ship.lenght}</td>
+                <td>${ship.length}</td>
                 <td>${ship.price}</td>
                 <td>${ship.person}</td>
                 <td>${ship.trailer}</td>

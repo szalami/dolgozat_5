@@ -4,8 +4,7 @@ Author: Faragó Csaba
 Copyright: 2023, Faragó Csaba
 Group: Szoft I-1-E
 Date: 2023-03-22
-Github: https://github.com/szalami/dolgozat_4.git
-https://szalami.github.io/doga_4_publish/
+Github: https://github.com/szalami/dolgozat_5.git
 Licenc: GNU GPL
 */
 
@@ -67,8 +66,11 @@ tr:nth-child(odd){
 tr:hover{
     color: #fff;
 }
-td:last-child{
+td{
     text-align: end;
+}
+td:first-child {
+    text-align: start;
 }
 footer{
     padding: 0 1em;
