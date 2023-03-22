@@ -1,0 +1,90 @@
+/*
+File: style.css
+Author: Faragó Csaba
+Copyright: 2023, Faragó Csaba
+Group: Szoft I-1-E
+Date: 2023-03-08
+Github: https://github.com/szalami/dolgozat_4.git
+https://szalami.github.io/doga_4_publish/
+Licenc: GNU GPL
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+}
+
+.container {
+    width: calc(100% - 2em);
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 1em;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+}
+h5 {
+    text-align: end;
+    padding: 0 0.5em;
+}
+header{
+    padding: 0 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img{
+    height: 1em;
+}
+h1{
+    display: inline-block;
+}
+table {
+    width: 100%;
+    font-weight: bold;
+}
+table, td, tr, th {
+    padding: 0.5em;
+}
+td, th {
+    width: 25%;
+}
+th {
+    background-color: #777;
+    color: #eee;
+}
+tr:nth-child(even){
+    background-color: #bbb;
+}
+tr:nth-child(odd){
+    background-color: #ccc;
+}
+tr:hover{
+    color: #fff;
+}
+td:last-child{
+    text-align: end;
+}
+footer{
+    padding: 0 1em;
+    text-align: left;
+    font-size: 0.8em;
+}
+footer p {
+    width: calc(50% - 1em);
+    margin-left: 50%;
+    padding:0 1em;
+    font-style: italic;
+    line-height: 1.5em; 
+    text-align: justify;
+    text-justify: inter-word;
+}
+footer p:last-child{
+    text-align: right;
+    padding: 0;
+    color: #000;
+}
