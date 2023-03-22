@@ -3,7 +3,7 @@ File: style.css
 Author: Faragó Csaba
 Copyright: 2023, Faragó Csaba
 Group: Szoft I-1-E
-Date: 2023-03-08
+Date: 2023-03-22
 Github: https://github.com/szalami/dolgozat_4.git
 https://szalami.github.io/doga_4_publish/
 Licenc: GNU GPL
@@ -38,7 +38,8 @@ header{
     align-items: center;
 }
 header img{
-    height: 1em;
+    height: 5em;
+    border-radius: 50%;
 }
 h1{
     display: inline-block;
@@ -51,7 +52,7 @@ table, td, tr, th {
     padding: 0.5em;
 }
 td, th {
-    width: 25%;
+    width: 20%;
 }
 th {
     background-color: #777;
